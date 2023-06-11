@@ -214,13 +214,18 @@ main .caja1 {
     padding: 15px;
     line-height: 2; }
 
-footer td h4 {
-  margin: 2px;
-  color: #192119;
+footer h2 {
+  color: #620000fc;
+  text-decoration: underline;
+  font-family: "Courgette", cursive; }
+
+footer a {
+  padding: 10px;
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
-  text-decoration: underline; }
-  footer td h4 #abajo {
-    color: #192119; }
+  color: #00005a;
+  text-decoration: none; }
 
 .contenedor {
   margin: auto;
@@ -258,7 +263,7 @@ footer td h4 {
   .contenedor .main {
     background-color: black;
     grid-area: main;
-    border: 2px red double;
+    border: 2px #ff0000 double;
     display: flex;
     flex-direction: column;
     justify-content: center; }
@@ -271,8 +276,7 @@ footer td h4 {
   .contenedor .aside {
     background-color: black;
     grid-area: aside;
-    border: 2px red double;
-    display: flex;
+    border: 2px #ff0000 double;
     display: flex;
     flex-direction: column;
     justify-content: center; }
@@ -285,7 +289,7 @@ footer td h4 {
   .contenedor .footer {
     background-color: black;
     grid-area: footer;
-    border: 2px red double;
+    border: 2px #ff0000 double;
     display: flex;
     display: flex;
     flex-direction: column;

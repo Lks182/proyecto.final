@@ -1,13 +1,15 @@
 footer{
-    td{
-        h4{
-            margin: 2px;
-            color: $colorgal;
-            font-size: 1rem;
-            text-decoration: underline;
-            #abajo{
-                color: $colorgal;
-            }
-        }
+    h2{
+        color: $colortit;
+        text-decoration: underline;
+        font-family: $letratit
+    }
+    a{
+        padding: 10px;
+        margin: 10px;
+        font-family: $letratex;
+        font-size: 1rem;
+        color: #00005a;
+        text-decoration: none;
     }
 }
