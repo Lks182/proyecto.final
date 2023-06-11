@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px){
+    body{
+        background-color: #f8ff27;
+        font-family: 'Montserrat', sans-serif;
+    }
+    h1{
+        color: black;
+        font-size: 3rem;
+    } 
+    .contenedor{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: 
+        "header"
+        "main "
+        "aside"
+        "footer ";
+     }
+     .header{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu{
+        flex-direction: column;
+    }
+}

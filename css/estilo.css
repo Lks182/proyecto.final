@@ -1,14 +1,6 @@
-* {
-  margin: 2px;
-  padding: 2px;
-  box-sizing: border-box; }
-
-body {
-  background-color: #0fcae230;
-  font-family: 'Montserrat', sans-serif; }
-
 header em {
-  color: #0a0303; }
+  color: #620000fc;
+  font-family: "Courgette", cursive; }
 
 header .img1 {
   text-align: center; }
@@ -16,15 +8,20 @@ header .img1 {
     width: 100px; }
 
 header h1 {
-  color: black;
-  font-family: 'Courgette', cursive;
+  color: #620000fc;
+  text-align: center;
+  font-family: "Courgette", cursive;
   text-decoration: underline; }
 
 header nav div img {
-  width: 100px; }
+  width: 100px;
+  transform: all rotate(3s); }
+  header nav div img:hover {
+    width: 110px;
+    transform: scale(0, 5, 5); }
 
 header nav .menu {
-  background-color: #09aa7a;
+  background-color: #007747;
   list-style: none;
   margin: 0px auto;
   text-align: center;
@@ -41,9 +38,10 @@ header nav .menu {
       color: #00010d;
       text-decoration: none; }
       header nav .menu li a:hover {
-        color: black;
-        background-color: aqua;
-        border-radius: 50%; }
+        color: #0cd3da;
+        background-color: #0fcae230;
+        border-radius: 50%;
+        transform: scale(1.2); }
 
 main .caja {
   width: 100px;
@@ -55,6 +53,25 @@ main .caja {
   main .caja img {
     width: 140px; }
 
+main .caja {
+  width: 100px;
+  height: 100px;
+  animation-duration: 3s;
+  animation-name: caja;
+  animation-iteration-count: infinite;
+  margin: 30px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px; }
+
+@keyframes caja {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
 main section p {
   color: black; }
 
@@ -65,7 +82,8 @@ main section p {
   color: black; }
 
 main h3 {
-  color: black; }
+  color: #620000fc;
+  font-family: "Courgette", cursive; }
 
 main table {
   border: 2;
@@ -98,28 +116,25 @@ main table {
     color: black; }
 
 main section h3 {
-  color: black; }
+  color: #620000fc;
+  font-family: "Courgette", cursive; }
 
-main section ol li {
-  color: black; }
-
-main section ol ul li {
-  color: black; }
-
-main section ol ul li {
-  color: black; }
-
-main section ol ul li {
-  color: black; }
-
-main section ol li {
-  color: black; }
-
-main section ol li {
-  color: black; }
-
-main section ol li {
-  color: black; }
+main section ol {
+  font-family: "Montserrat", sans-serif; }
+  main section ol li {
+    color: black; }
+  main section ol ul li {
+    color: black; }
+  main section ol ul li {
+    color: black; }
+  main section ol ul li {
+    color: black; }
+  main section ol li {
+    color: black; }
+  main section ol li {
+    color: black; }
+  main section ol li {
+    color: black; }
 
 main .galeria {
   background-color: #192119;
@@ -135,7 +150,8 @@ main .galeria {
       border: #e3dbdb 2px solid; }
 
 main section h2 {
-  color: black; }
+  color: #620000fc;
+  font-family: "Courgette", cursive; }
 
 main section table {
   border: 1;
@@ -167,8 +183,174 @@ main section table {
   main section table tbody tr td {
     color: black; }
 
-footer td h4 a {
-  padding: 10px;
+main h2 {
+  color: #620000fc;
+  font-family: "Courgette", cursive;
+  font-size: 3rem; }
+
+main .parrafo1 {
+  color: #192119;
+  font-size: 1.5rem;
+  padding: 15px;
+  line-height: 1;
+  background: linear-gradient(to top, red, yellow); }
+
+main .caja1 {
+  padding: 1rem;
   margin: 10px;
-  color: #1fb811;
+  line-height: 1.5;
+  width: 400px;
+  height: 200px;
+  border: 1px greenyellow solid;
+  overflow: auto; }
+  main .caja1 .parrafo2 {
+    color: #0af40a;
+    font-size: 1.5rem;
+    background-image: url(../Imagenes/fondo1.jpg);
+    padding: 15px;
+    line-height: 2; }
+
+footer td h4 {
+  margin: 2px;
+  color: #192119;
+  font-size: 1rem;
+  text-decoration: underline; }
+  footer td h4 #abajo {
+    color: #192119; }
+
+.contenedor {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  grid-template-rows: auto 3fr auto;
+  grid-auto-rows: row;
+  gap: 1px 1px;
+  grid-template-areas: "header header" "main aside" "footer footer"; }
+  .contenedor .header {
+    grid-area: header;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .contenedor .header a {
+      padding: 10px;
+      margin: 10px;
+      color: #00010d;
+      text-decoration: none;
+      text-align: center; }
+      .contenedor .header a:hover {
+        color: white;
+        background-color: red;
+        border-radius: 50%;
+        transform: translate(9px, 9px); }
+      .contenedor .header a:active {
+        background-color: maroon; }
+    .contenedor .header img {
+      width: 140px; }
+    .contenedor .header h1 {
+      color: #620000fc;
+      font-family: "Courgette", cursive;
+      text-decoration: underline; }
+  .contenedor .main {
+    background-color: black;
+    grid-area: main;
+    border: 2px red double;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .contenedor .main .pag2 {
+      background-color: darkred;
+      text-align: center;
+      font-family: "Courgette", cursive; }
+    .contenedor .main img {
+      width: 400px; }
+  .contenedor .aside {
+    background-color: black;
+    grid-area: aside;
+    border: 2px red double;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .contenedor .aside .pag2 {
+      background-color: darkred;
+      text-align: center;
+      font-family: "Courgette", cursive; }
+    .contenedor .aside video {
+      width: 500px; }
+  .contenedor .footer {
+    background-color: black;
+    grid-area: footer;
+    border: 2px red double;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .contenedor .footer .pag2 {
+      background-color: darkred;
+      text-align: center;
+      font-family: "Courgette", cursive; }
+    .contenedor .footer .parrafo0 {
+      color: darkred;
+      text-decoration: none;
+      font-size: 1rem;
+      padding: 10px;
+      line-height: 1.5; }
+    .contenedor .footer .pag2 {
+      background-color: darkred;
+      text-align: center;
+      font-family: "Courgette", cursive; }
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: #f8ff27;
+    font-family: 'Montserrat', sans-serif; }
+  h1 {
+    color: black;
+    font-size: 3rem; }
+  .contenedor {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "header" "main " "aside" "footer "; }
+  .header {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+  .menu {
+    flex-direction: column; } }
+
+* {
+  margin: 2px;
+  padding: 2px;
+  box-sizing: border-box; }
+
+body {
+  background-color: #0fcae230;
+  font-family: 'Montserrat', sans-serif; }
+
+.body2 {
+  background-color: #0fcae230;
+  font-family: 'Montserrat', sans-serif; }
+  .body2 .titulo1 {
+    color: #620000fc;
+    text-align: center;
+    font-family: "Courgette", cursive; }
+
+.container-fluid {
+  background-color: #09aa7a;
+  list-style: none;
+  margin: 0px auto;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
   text-decoration: none; }
+  .container-fluid .img4 {
+    width: 50px; }
+  .container-fluid .nav3 {
+    background-color: lawngreen;
+    list-style: none;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 10px;
+    display: flex; }

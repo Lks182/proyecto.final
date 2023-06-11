@@ -1,0 +1,174 @@
+main{
+    .caja{
+        width: 100px;
+        height: 100px;
+        margin: 30px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        img{
+            width: 140px;
+        }
+    }
+    .caja{
+        width: 100px;
+        height: 100px;
+        animation-duration: 3s;
+        animation-name: caja;
+        animation-iteration-count: infinite;
+        margin: 30px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        @keyframes caja {
+            0%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+    }
+    section{
+        p{color: black;}
+        p{color: black;}
+        p{color: black;}
+    }
+    h3{
+        color: $colortit;
+        font-family: $letratit;
+    }
+    table{
+        border: 2;
+        padding: 10px;
+        thead{
+            tr{
+                color: black;
+                th{color: black;}
+                th{ color: black;}
+                th{ color: black;}
+            }
+        }
+        tbody{
+            tr{
+                td{ color: black;}
+                td{ color: black;}
+                td{ color: black;}
+            }
+            tr{
+                td{ color: black;}
+                td{ color: black;}
+                td{ color: black;}
+            }
+            tr{
+                td{ color: black;}
+                td{ color: black;}
+                td{ color: black;}
+            }
+    
+        }
+    }
+    section{
+        h3{
+            color: $colortit;
+            font-family: $letratit;
+        }
+        ol{
+            font-family: $letratex;
+            li{color: black;}
+            ul{
+                li{ color: black;}
+                li{ color: black;}
+                li{ color: black;}
+            }
+            li{color: black;}
+            li{ color: black;}
+            li{ color: black;}
+        }
+    }
+    .galeria{
+        background-color: $colorgal;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        div{
+            .img2{
+                width: 300px;
+                border: rgb(241, 19, 7) 3px double;
+                opacity: .1;
+                &:hover{
+                    opacity: .4;
+                    border: rgb(227, 219, 219) 2px solid;
+                }
+            }
+        }
+
+    }
+    section{
+        h2{ 
+            color: $colortit;
+            font-family: $letratit;
+            }
+        table{
+            border: 1;
+            padding: 10px;
+            thead{
+                tr{
+                    color: black;
+                    th{color: black;}
+                    th{ color: black;}
+                    th{ color: black;}
+                }
+            }
+            tbody{
+                tr{
+                    td{ color: black;}
+                    td{ color: black;}
+                    td{ color: black;}
+                }
+                tr{
+                    td{ color: black;}
+                    td{ color: black;}
+                    td{ color: black;}
+                }
+                tr{
+                    td{ color: black;}
+                    td{ color: black;}
+                    td{ color: black;}
+                }
+        
+            }
+        }
+    }
+    h2{
+        color: $colortit;
+        font-family: $letratit;
+        font-size: 3rem
+    }
+    .parrafo1{
+        color: $colorgal;
+        font-size: 1.5rem;
+        padding: 15px;
+        line-height: 1;
+        background: linear-gradient(to top,red,yellow);
+    }
+    .caja1{
+        padding: 1rem; 
+        margin: 10px;
+        line-height: 1.5;
+        width: 400px;
+        height: 200px;
+        border: 1px greenyellow solid;
+        overflow: auto;
+        .parrafo2{
+            color: rgb(10, 244, 10);
+            font-size: 1.5rem;
+            background-image: url(../Imagenes/fondo1.jpg);
+            padding: 15px;
+            line-height: 2;
+        }
+     }
+}

@@ -1,0 +1,103 @@
+.contenedor{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: auto 3fr auto;
+    grid-auto-rows: row;
+    gap: 1px 1px;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+    .header{
+        grid-area: header;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        a{
+            padding: 10px;
+            margin: 10px;
+            color: rgb(0, 1, 13);
+            text-decoration: none;
+            text-align: center;
+            &:hover{
+                color: rgb(255, 255, 255);
+                background-color: rgb(255, 0, 0);
+                border-radius: 50%;
+                transform: translate(9px,9px);
+            }
+            &:active{
+                background-color: maroon;
+            }
+        }
+        img{
+            width: 140px;
+        }
+        h1{
+            color:$colortit;
+            font-family: $letratit;
+            text-decoration: underline;
+        }
+    }
+    .main{
+        background-color: black;
+        grid-area: main;
+        border: 2px rgb(255, 0, 0) double;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .pag2{
+            background-color: darkred;
+            text-align: center;
+            font-family: $letratit;
+        } 
+        img{
+            width: 400px;
+        }
+    }
+    .aside{
+        background-color: black;
+        grid-area: aside;
+        border: 2px rgb(255, 0, 0) double;
+        display: flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .pag2{
+            background-color: darkred;
+            text-align: center;
+            font-family: $letratit;
+        } 
+        video{
+            width: 500px;
+        }
+    }
+    .footer{
+        background-color: black;
+        grid-area: footer;
+        border: 2px rgb(255, 0, 0) double;
+        display: flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .pag2{
+            background-color: darkred;
+            text-align: center;
+            font-family: $letratit;
+
+        } 
+        .parrafo0{
+            color: darkred;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px;
+            line-height: 1.5;
+        }
+        .pag2{
+            background-color: darkred;
+            text-align: center;
+            font-family: $letratit;
+        } 
+    }
+ }

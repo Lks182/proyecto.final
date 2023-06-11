@@ -1,3 +1,10 @@
+@import "var";
+@import "header";
+@import "main";
+@import "footer";
+@import "pag2";
+@import "mediaq";
+
 *{
     margin: 2px;
     padding: 2px;
@@ -5,183 +12,34 @@
 }
 body{
     background-color: #0fcae230;
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Montserrat', sans-serif;
 }
-header{
-    em{
-        color: rgb(10, 3, 3);
-    }
-    .img1{
+.body2{
+    background-color: #0fcae230;
+    font-family:'Montserrat', sans-serif;
+    .titulo1{
+        color: $colortit;
         text-align: center;
-        img{
-            width: 100px;
-        }
-    }
-    h1{
-        color: black;
-        font-family: 'Courgette', cursive;
-        text-decoration: underline;
-    }
-    nav{
-        div{
-            img{
-                width: 100px;
-            }
-        }
-        .menu{
-            background-color: rgb(9, 170, 122);
-            list-style: none;
-            margin: 0px auto;
-            text-align: center;
-            border-radius: 10px;
-            display: flex;
-            li{
-                display: inline-block;
-                text-align: center;
-                display: flex;
-                align-items: center;
-                a{
-                    padding: 10px;
-                    margin: 10px;
-                    color: rgb(0, 1, 13);
-                    text-decoration: none;
-                    &:hover{
-                        color: black;
-                        background-color: aqua;
-                        border-radius: 50%;
-                    }
-                }
-            }
-        }
+        font-family: $letratit;
     }
 }
-main{
-    .caja{
-        width: 100px;
-        height: 100px;
-        margin: 30px;
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        img{
-            width: 140px;
-        }
+.container-fluid{
+    background-color: rgb(9, 170, 122);
+    list-style: none;
+    margin: 0px auto;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    text-decoration: none;
+    .img4{
+        width: 50px;
     }
-    section{
-        p{color: black;}
-        p{color: black;}
-        p{color: black;}
-    }
-    h3{
-        color: black;
-    }
-    table{
-        border: 2;
-        padding: 10px;
-        thead{
-            tr{
-                color: black;
-                th{color: black;}
-                th{ color: black;}
-                th{ color: black;}
-            }
-        }
-        tbody{
-            tr{
-                td{ color: black;}
-                td{ color: black;}
-                td{ color: black;}
-            }
-            tr{
-                td{ color: black;}
-                td{ color: black;}
-                td{ color: black;}
-            }
-            tr{
-                td{ color: black;}
-                td{ color: black;}
-                td{ color: black;}
-            }
-    
-        }
-    }
-    section{
-        h3{
-            color: black;
-        }
-        ol{
-            li{color: black;}
-            ul{
-                li{ color: black;}
-                li{ color: black;}
-                li{ color: black;}
-            }
-            li{color: black;}
-            li{ color: black;}
-            li{ color: black;}
-        }
-    }
-    .galeria{
-        background-color: rgb(25, 33, 25);
+    .nav3{
+        background-color: lawngreen;
+        list-style: none;
+        margin: 0px auto;
+        text-align: center;
+        border-radius: 10px;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        div{
-            .img2{
-                width: 300px;
-                border: rgb(241, 19, 7) 3px double;
-                opacity: .1;
-                &:hover{
-                    opacity: .4;
-                    border: rgb(227, 219, 219) 2px solid;
-                }
-            }
-        }
-
-    }
-    section{
-        h2{ color: black;}
-        table{
-            border: 1;
-            padding: 10px;
-            thead{
-                tr{
-                    color: black;
-                    th{color: black;}
-                    th{ color: black;}
-                    th{ color: black;}
-                }
-            }
-            tbody{
-                tr{
-                    td{ color: black;}
-                    td{ color: black;}
-                    td{ color: black;}
-                }
-                tr{
-                    td{ color: black;}
-                    td{ color: black;}
-                    td{ color: black;}
-                }
-                tr{
-                    td{ color: black;}
-                    td{ color: black;}
-                    td{ color: black;}
-                }
-        
-            }
-        }
-    }
-}
-footer{
-    td{
-        h4{
-            a{
-                padding: 10px;
-                margin: 10px;
-                color: rgb(31, 184, 17);
-                text-decoration: none;
-            }
-        }
     }
 }
