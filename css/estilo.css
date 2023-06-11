@@ -1,5 +1,6 @@
 header em {
   color: #620000fc;
+  text-decoration: underline;
   font-family: "Courgette", cursive; }
 
 header .img1 {
@@ -83,6 +84,7 @@ main section p {
 
 main h3 {
   color: #620000fc;
+  text-decoration: underline;
   font-family: "Courgette", cursive; }
 
 main table {
@@ -117,6 +119,7 @@ main table {
 
 main section h3 {
   color: #620000fc;
+  text-decoration: underline;
   font-family: "Courgette", cursive; }
 
 main section ol {
@@ -151,6 +154,7 @@ main .galeria {
 
 main section h2 {
   color: #620000fc;
+  text-decoration: underline;
   font-family: "Courgette", cursive; }
 
 main section table {
@@ -335,6 +339,7 @@ body {
   .body2 .titulo1 {
     color: #620000fc;
     text-align: center;
+    text-decoration: underline;
     font-family: "Courgette", cursive; }
 
 .container-fluid {

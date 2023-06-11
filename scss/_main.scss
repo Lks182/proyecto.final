@@ -37,8 +37,9 @@ main{
         p{color: black;}
         p{color: black;}
     }
-    h3{
+     h3{
         color: $colortit;
+        text-decoration: underline;
         font-family: $letratit;
     }
     table{
@@ -74,11 +75,14 @@ main{
     section{
         h3{
             color: $colortit;
+            text-decoration: underline;
             font-family: $letratit;
         }
         ol{
             font-family: $letratex;
-            li{color: black;}
+            li{
+                color: black;
+            }
             ul{
                 li{ color: black;}
                 li{ color: black;}
@@ -110,6 +114,7 @@ main{
     section{
         h2{ 
             color: $colortit;
+            text-decoration: underline;
             font-family: $letratit;
             }
         table{
