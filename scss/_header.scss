@@ -1,9 +1,4 @@
 header{
-    em{
-        color: $colortit;
-        text-decoration: underline;
-        font-family: $letratit
-    }
     .img1{
         text-align: center;
         img{
@@ -15,6 +10,13 @@ header{
         text-align: center;
         font-family: $letratit;
         text-decoration: underline;
+    }
+    h3{
+        em{
+            color: $colortit;
+            text-decoration: underline;
+            font-family: $letratit
+        }
     }
     nav{
         div{
