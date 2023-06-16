@@ -319,8 +319,9 @@ footer a {
     flex-direction: column;
     justify-content: center; }
     .contenedor .main .pag2 {
-      background-color: darkred;
+      background-color: #007747;
       text-align: center;
+      color: black;
       font-family: "Courgette", cursive;
       text-decoration: none; }
     .contenedor .main img {
@@ -333,7 +334,7 @@ footer a {
     flex-direction: column;
     justify-content: center; }
     .contenedor .aside .pag2 {
-      background-color: darkred;
+      background-color: #007747;
       text-align: center;
       font-family: "Courgette", cursive; }
     .contenedor .aside video {
@@ -357,7 +358,7 @@ footer a {
       padding: 10px;
       line-height: 1.5; }
     .contenedor .footer .pag2 {
-      background-color: darkred;
+      background-color: #007747;
       text-align: center;
       font-family: "Courgette", cursive; }
 
