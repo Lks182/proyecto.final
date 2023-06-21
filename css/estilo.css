@@ -181,6 +181,7 @@ main section h2 {
 
 main section table {
   border: 1;
+  margin: 0 auto;
   padding: 10px; }
   main section table thead tr {
     color: black; }
@@ -212,6 +213,7 @@ main section table {
 main h2 {
   color: #620000fc;
   font-family: "Courgette", cursive;
+  text-align: center;
   font-size: 3rem; }
 
 main .parrafo1 {

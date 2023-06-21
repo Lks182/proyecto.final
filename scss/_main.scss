@@ -119,6 +119,7 @@ main{
             }
         table{
             border: 1;
+            margin: 0 auto;
             padding: 10px;
             thead{
                 tr{
@@ -151,6 +152,7 @@ main{
     h2{
         color: $colortit;
         font-family: $letratit;
+        text-align: center;
         font-size: 3rem
     }
     .parrafo1{
