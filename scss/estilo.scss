@@ -3,7 +3,6 @@
 @import "main";
 @import "footer";
 @import "pag2";
-@import "mediaq";
 
 *{
     margin: 2px;
@@ -35,5 +34,43 @@ body{
         img{
             width: 100px;
         }
+    }
+}
+@media screen and (max-width: 600px){
+    body{
+        background-color: $colormed;
+        font-family: $letratex
+    }
+    h1{
+        color: black;
+        font-size: 3rem;
+    } 
+    .contenedor{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: 
+        "header"
+        "main "
+        "aside"
+        "footer ";
+     }
+     .header{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .body2{
+        background-color: $colormed;
+        font-family: $letratex;
+    }
+    .contenedor1{
+        flex-direction: column;
+    }
+    .img3{
+        margin: 0px auto;
     }
 }
