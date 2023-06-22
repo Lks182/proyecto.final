@@ -18,68 +18,43 @@ header{
             font-family: $letratit
         }
     }
-    nav{
+    .nav{
+        display: flex;
+        background-color: $colornav;
         div{
             img{
-                width: 50px;
+                width: 100px;
+                height: 100px;
             }
         }
-        .menu{
-            background-color: $colornav;
-            list-style: none;
-            margin: 0px auto;
-            text-align: center;
-            border-radius: 10px;
-            display: flex;
-            li{
-                display: inline-block;
+        nav{
+            .menu{
+                background-color: $colornav;
+                list-style: none;
+                margin: 0px auto;
                 text-align: center;
+                border-radius: 10px;
                 display: flex;
-                align-items: center;
-                a{
-                    padding: 15px;
-                    margin: 10px;
-                    color: rgb(0, 1, 13);
-                    text-decoration: none;
-                    &:hover{
-                        color: #0cd3da;
-                        background-color: $colorbg;
-                        border-radius: 50%;
-                        transform: scale(1.2);
+                li{
+                    display: inline-block;
+                    text-align: center;
+                    display: flex;
+                    padding: 5px;
+                    align-items: center;
+                    a{
+                        padding: 15px;
+                        margin: 20px;
+                        color: rgb(0, 1, 13);
+                        text-decoration: none;
+                        &:hover{
+                            color: #0cd3da;
+                            background-color: $colorbg;
+                            border-radius: 50%;
+                            transform: scale(1.2);
+                        }
                     }
                 }
             }
         }
-        div{
-            img{
-                width: 50px;
-            }
-        }
-        .menu2{
-            background-color: $colornav;
-            list-style: none;
-            margin: 0px auto;
-            text-align: center;
-            border-radius: 10px;
-            display: flex;
-            li{
-                display: inline-block;
-                text-align: center;
-                display: flex;
-                align-items: center;
-                a{
-                    padding: 22px;
-                    margin: 10px;
-                    color: rgb(0, 1, 13);
-                    text-decoration: none;
-                    &:hover{
-                        color: #0cd3da;
-                        background-color: $colorbg;
-                        border-radius: 50%;
-                        transform: scale(1.2);
-                    }
-                }
-            }
-        }  
     }
 }

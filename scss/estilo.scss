@@ -13,6 +13,13 @@
 body{
     background-color: #0fcae230;
     font-family:'Montserrat', sans-serif;
+    .img1{
+        text-align: center;
+        img{
+            width: 100px;
+        }
+    }
+    
 }
 .body2{
     background-color: #0fcae230;
@@ -22,5 +29,11 @@ body{
         text-align: center;
         text-decoration: underline;
         font-family: $letratit;
+    }
+    .img1{
+        text-align: center;
+        img{
+            width: 100px;
+        }
     }
 }
