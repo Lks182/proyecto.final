@@ -219,7 +219,7 @@ main .caja1 {
   main .caja1 .parrafo2 {
     color: #0af40a;
     font-size: 1.5rem;
-    background-image: url(../Imagenes/fondo1.jpg);
+    background-image: url(../imagenes/fondo1.jpg);
     padding: 15px;
     line-height: 2; }
 
@@ -358,7 +358,7 @@ footer a {
 
 @media screen and (max-width: 600px) {
   body {
-    background-color: #f8ff27;
+    background-color: #e5ec0f;
     font-family: 'Montserrat', sans-serif; }
   h1 {
     color: black;
