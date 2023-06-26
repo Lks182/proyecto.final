@@ -44,6 +44,12 @@ header .nav {
           border-radius: 50%;
           transform: scale(1.2); }
 
+header h2 {
+  color: #620000fc;
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Courgette", cursive; }
+
 main .caja {
   width: 100px;
   height: 100px;
@@ -201,6 +207,13 @@ main .parrafo1 {
   line-height: 1;
   background: linear-gradient(to top, red, yellow); }
 
+main .parrafo2 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  padding: 15px;
+  line-height: 1; }
+
 main .parrafo3 {
   color: #192119;
   font-size: 1.2rem;
@@ -229,6 +242,12 @@ main .contenedor1 {
     width: 200px;
     height: 200px;
     border: #f11307 3px double; }
+
+main .formulario {
+  background-color: wheat;
+  margin: 0px auto; }
+  main .formulario .form1 {
+    text-align: center; }
 
 .container-fluid {
   background-color: #09aa7a;
@@ -262,8 +281,8 @@ footer a {
   text-decoration: none; }
 
 .contenedor {
-  margin: auto;
-  width: 90%;
+  margin: 0px auto;
+  width: 100%;
   display: grid;
   grid-template-columns: 3fr 3fr;
   grid-template-rows: auto 3fr auto;
@@ -394,10 +413,14 @@ body {
     grid-template-columns: auto;
     grid-template-rows: repeat(4, auto);
     grid-template-areas: "header" "main " "aside" "footer "; }
-  .header {
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center; }
+    .contenedor .header {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+    .contenedor .main img {
+      width: 100%; }
+    .contenedor .aside video {
+      width: 100%; }
   .menu {
     flex-direction: column; }
   .body2 {

@@ -57,4 +57,10 @@ header{
             }
         }
     }
+    h2{
+        color: $colortit;
+        text-decoration: underline;
+        text-align: center;
+        font-family: $letratit
+    }
 }

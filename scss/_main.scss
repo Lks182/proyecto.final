@@ -162,6 +162,13 @@ main{
         line-height: 1;
         background: linear-gradient(to top,red,yellow);
     }
+    .parrafo2{
+        color: black;
+        font-family: $letratex;
+        font-size: 1.5rem;
+        padding: 15px;
+        line-height: 1;
+    }
     .parrafo3{
         color: $colorgal;
         font-size: 1.2rem;
@@ -191,6 +198,13 @@ main{
             width: 200px;
             height: 200px;
             border: rgb(241, 19, 7) 3px double;
+        }
+    }
+    .formulario{
+        background-color: wheat;
+        margin: 0px auto;
+        .form1{
+            text-align: center;
         }
     }
 }

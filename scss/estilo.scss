@@ -54,11 +54,21 @@ body{
         "main "
         "aside"
         "footer ";
-     }
-     .header{
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
+        .header{
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .main{
+            img{
+                width: 100%;
+            }
+        }
+        .aside{
+            video{
+                width: 100%;
+            }
+        }
     }
     .menu{
         flex-direction: column;
@@ -66,11 +76,12 @@ body{
     .body2{
         background-color: $colormed;
         font-family: $letratex;
-    }
-    .contenedor1{
+     }
+     .contenedor1{
         flex-direction: column;
-    }
-    .img3{
+     }
+     .img3{
         margin: 0px auto;
-    }
+    }  
+
 }
